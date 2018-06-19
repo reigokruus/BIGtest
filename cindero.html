@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Cindero - igniting flames since 1018</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="main.css" type="text/css" media="all">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+</head>
+<body>
+<div class="logo_menu">
+	<img src="logo2x.png" alt="logo" title="logo" />
+	<span class="menu_btn home_btn">Home</span>
+	<span class="menu_btn more_btn">Matchmaking</span>
+	<span class="menu_btn matches_btn">Your matches</span>
+</div>
+<div id="main">
+	<div class="gender_screen panel">
+		<h3>Who do you want to see?</h3>
+		<span class="choose_gender" id="choose_female" alt="Girls" title="Girls"></span>
+		<span class="choose_gender" id="choose_male" alt="Boys" title="Boys"></span>
+	</div>
+	<div class="matchmaking panel hidden">
+		<h3>Matchmaking</h3>
+		<div class="profile">
+			<div class="stats">
+				<span class="user_stat user_img"></span>
+				<span class="profile_param">Name:</span>
+				<span class="user_stat user_name"></span>
+				<span class="profile_param">Description:</span>
+				<span class="user_stat user_desc"></span>
+				<span class="profile_param">Gender:</span>
+				<span class="user_stat user_gender"></span>
+			</div>
+		</div>
+		<span class="match_button match_yes">Yay</span>
+		<span class="match_button match_no">Nay</span>
+	</div>
+	<div class="matches panel hidden">
+		<h3>Your matches</h3>
+		<div class="matches_list"></div>
+	</div>
+</div>
+</body>
+<footer>
+	<script type="text/javascript" src="scripts.js"></script>
+</footer>
+</html>
